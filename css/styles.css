@@ -1,0 +1,230 @@
+
+.header span {
+    font-family: 'motiva-sans';
+    color:#667E85;
+    font-weight: 500;
+}
+.button-green {
+    font-family: 'Varela Round';
+    background:#39B773;
+    color:white;
+    font-weight: lighter;
+}
+.button-white {
+    font-family: 'Varela Round';
+    background:white;
+    color:#39B773;
+    font-weight: lighter;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+}
+.button-green:hover {
+    font-family: 'Varela Round';
+    background:white;
+    color:#39B773;
+    font-weight: lighter;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+}
+.button-white:hover {
+    font-family: 'Varela Round';
+    background:#39B773;
+    color:white;
+    font-weight: lighter;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+.hero {
+    align-items: flex-start;
+}
+.hero h1 {
+    font-family: 'Gotham Rounded';
+}
+.hero h1 span {
+    color:#39B773;
+}
+.hero p {
+    font-family: 'Varela Round';
+    color:#061F26;
+}
+.hero .img-1 {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 20px 20px 200px 20px;
+}
+.hero .img-2 {
+    border-radius: 20px 180px;
+}
+.features {
+    background:#E6EDEF;
+}
+.features h2 {
+    font-family: 'Gotham Rounded';
+}
+.features-items {
+    justify-content: space-evenly;
+}
+.features .item-box {
+    background:#39B473;
+}
+.item {
+    align-items: center;
+}
+.item p {
+    font-family: 'Varela Round';
+    color:#103540;
+}
+.features .features-bottom {
+    justify-content: center;
+}
+.features .features-bottom a {
+    font-family: 'Varela Round';
+    color:white;
+    background:#236D76;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+}
+.features .features-bottom a:hover {
+    font-family: 'Varela Round';
+    color:#236D76;
+    background:white;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+.global-network {
+    background:url('/img/background-global-network.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.global-network h2 {
+    color:white;
+    font-family: 'Gotham Rounded';
+}
+.global-network .items {
+    justify-content: center;
+}
+.global-network .items .item {
+    background:#FFF;
+}
+.global-network .items .item h3 {
+    font-family: 'Gotham Rounded';
+    color:#061F26;
+    font-weight: 350;
+}
+.transparency {
+    background:#E6EDEF;
+}
+.transparency h2 {
+    font-family: 'Gotham Rounded';
+    color:#061F26;
+}
+.transparency-bottom {
+    justify-content: center;
+}
+.transparency .item {
+    background:#39B473;
+    font-family: 'Gotham Rounded';
+}
+.transparency h4 {
+    font-family: 'Gotham Rounded';
+    color:#236D76;
+}
+.transparency .tranparency-top {
+    justify-content: center;
+}
+.transparency .tranparency-top a {
+    font-family: 'Varela Round';
+    color:white;
+    background:#236D76;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+}
+.transparency .tranparency-top a:hover {
+    font-family: 'Varela Round';
+    color:#236D76;
+    background:white;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+.transparency .business {
+    align-items: center;
+}
+.transparency .business h2 {
+    font-family: 'Gotham Rounded';
+    color:#061F26;
+}
+.transparency .business h2 span {
+    color:#39B773;
+}
+.transparency .business ul li {
+    color:#103540;
+    font-family: 'Gotham Rounded';
+    font-weight: 350;
+}
+.plans h2 {
+    font-family: 'Gotham Rounded';
+    color:#061F26;
+}
+.plans p {
+    font-family: 'Gotham Rounded';
+    color:#061F26;
+    font-weight: lighter;
+}
+.plans .plan-box h3 {
+    font-family: 'Gotham Rounded';
+    color:#061F26;
+    font-weight: 400;
+}
+.plans .plan-box h4 {
+    font-family: 'Gotham Rounded';
+    color:#061F26;
+    font-weight: 400;
+}
+.plans .plan-box h4 span {
+    top: -25px;
+    position: relative;
+    left: -10px;
+}
+.plans .plan-box h5 {
+    font-family: 'Gotham Rounded';
+    color:#061F26;
+    font-weight: 350;
+}
+.plans .plan-box ul li {
+    font-family: 'Varela Round';
+    color:#103540;
+    font-weight: 400;
+}
+.plans .plan-box p {
+    font-family: 'Varela Round';
+    color:#7C949A;
+    font-weight: 400;
+}
+.plan-grey {
+    background:#E6EDEF;
+}
+.plan-white {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px 5px rgba(46, 52, 90, 0.15);
+}
+.plan-white #save {
+    color:#DE3618;
+    font-weight: 400;
+    font-family: 'Gotham Rounded';
+}
+.plans .plans-container {
+    justify-content: center;
+    align-items: center;
+}
+.history img {
+    border-radius: 0px 180px 20px;
+}
+.history {
+    align-items: center;
+}
+.history p {
+    color:#061F26;
+    font-family: 'Gotham Rounded';
+    font-weight: 325;
+    width: 50%;
+}
