@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Limeline</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="/css/styles.css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -18,14 +19,16 @@
   </head>
   <body>
     <!-- Header -->
-    <div class="container mx-auto flex header p-5 items-center">
+    <div
+      class="container mx-auto flex flex-col lg:flex-row header p-5 items-center"
+    >
       <div class="flex-auto grow">
         <img src="./img/limeline-logo.svg" />
       </div>
-      <div class="flex-none mr-10">
+      <div class="flex-none mt-4 lg:mr-10 lg:mt-0">
         <span class="text-xs">(208) 901-3350 SALES + SUPPORT</span>
       </div>
-      <div class="flex-none">
+      <div class="flex-none mt-6 lg:mt-0">
         <a class="text-lg rounded-3xl p-4 px-8 shadow-lg button-green" href="#"
           >Get Started</a
         >
@@ -285,18 +288,54 @@
       </div>
       <div class="flex p-16 pl-32 basis-1/2">
         <p class="text-xl">
-          Limeline was founded on the
-          belief that we will offer the
-          best service, biggest positive
-          impact for customers, and the
-          best workplace. Our goal is to
-          change the way you think
-          about phone services.
+          Limeline was founded on the belief that we will offer the best
+          service, biggest positive impact for customers, and the best
+          workplace. Our goal is to change the way you think about phone
+          services.
         </p>
       </div>
     </div>
-    <div class="container flex max-w-none mx-auto footer">
-        footer
+    <div class="container max-w-none mx-auto p-10 pl-20 pr-20 footer mt-20">
+      <div class="container mt-10">
+        <img src="img/footer-logo.svg" />
+      </div>
+      <div class="container flex gap-20 mt-20 mb-20">
+        <div class="flex-auto basis-1/3">
+          <h2 class="text-sm uppercase mb-5">Links</h2>
+          <ul class="text-sm">
+            <li class="mb-1">Products</li>
+            <li class="mb-1">Solutions</li>
+            <li class="mb-1">Why Limeline</li>
+            <li class="mb-1">Pricing</li>
+            <li class="mb-1">Get a Demo</li>
+          </ul>
+        </div>
+        <div class="flex-auto basis-1/3">
+          <h2 class="text-sm uppercase mb-5">Contact Us</h2>
+          <a class="text-sm mb-1" href="mailto:hello@limetreelabs.com">hello@limetreelabs.com</a>
+          <p class="text-sm mb-5">208-901-3350</p>
+          <ul>
+            <li class="inline-block mr-1"><img src="img/linkedin-logo 1.svg" /></li>
+            <li class="inline-block mr-1"><img src="img/twitter-logo.svg" /></li>
+            <li class="inline-block mr-1"><img src="img/instagram-logo.svg" /></li>
+            <li class="inline-block mr-1"><img src="img/facebook-logo.svg" /></li>
+          </ul>
+          <p class="text-sm mt-5">Serving Idaho and Utah.</p>
+        </div>
+        <div class="flex-auto basis-1/3">
+          <h2 class="text-sm uppercase mb-5">About Us</h2>
+          <p class="text-sm">
+            Limetree Labs is an IT service provider serving Idaho and Utah. We
+            differentiate our business through outstanding customer service and
+            building relationships with our clients. We have a fresh, modern
+            take on IT that focuses on people first. Keep IT fresh.
+          </p>
+
+          <h2 class="text-sm uppercase mb-5 mt-10">Headquarters</h2>
+          <p class="text-sm mb-1">2775 W Navigator Drive, Suite 110</p>
+          <p class="text-sm">Meridian, Idaho 83642</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

@@ -228,3 +228,26 @@
     font-weight: 325;
     width: 50%;
 }
+.footer {
+    background:#103540;
+}
+.footer h2 {
+    font-family: 'Varela Round';
+    font-weight: 400;
+    color:#A2ADB2;
+}
+.footer ul li {
+    font-family: 'Varela Round';
+    color:#447E83;
+    font-weight: lighter;
+}
+.footer p {
+    font-family: 'Varela Round';
+    color:#447E83;
+    font-weight: lighter; 
+}
+.footer a {
+    font-family: 'Varela Round';
+    color:#447E83;
+    font-weight: lighter;
+}
