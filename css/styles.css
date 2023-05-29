@@ -95,6 +95,8 @@
     background:url('/img/background-global-network.svg');
     background-repeat: no-repeat;
     background-size:cover;
+    width: 100% !important;
+    height: 860px !important;
 }
 .global-network h2 {
     color:white;
@@ -215,6 +217,20 @@
 .plans .plans-container {
     justify-content: center;
     align-items: center;
+}
+.plans a {
+    font-family: 'Varela Round';
+    color:white;
+    background:#236D76;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+}
+.plans a:hover {
+    font-family: 'Varela Round';
+    color:#236D76;
+    background:white;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
 }
 .history img {
     border-radius: 0px 180px 20px;
