@@ -202,6 +202,11 @@
     color:#7C949A;
     font-weight: 400;
 }
+.plans #promo {
+    font-family: 'Gotham Rounded';
+    color:#061F26;
+    font-weight: 400;
+}
 .plan-grey {
     background:#E6EDEF;
 }
@@ -266,4 +271,9 @@
     font-family: 'Varela Round';
     color:#447E83;
     font-weight: lighter;
+}
+@media (max-width:768px) {
+    .global-network {
+        height: auto !important;
+    }
 }
