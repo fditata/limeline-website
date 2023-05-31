@@ -276,4 +276,7 @@
     .global-network {
         height: auto !important;
     }
+    .history p {
+        width:100%;
+    }
 }
