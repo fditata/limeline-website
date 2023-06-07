@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 .header span {
     font-family: 'motiva-sans';
     color:#667E85;
